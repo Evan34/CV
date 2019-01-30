@@ -1,0 +1,139 @@
+@media screen and (max-width: 450px) {
+
+body {
+    font-family: 'arial', sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 50px;
+    color: rgba(233, 166, 41, 0.8);
+}
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(233, 166, 41, 0.8);
+}
+
+nav {
+    background-color: #424558de;
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.detail, .detail2, .detail3 {
+    display: none;
+    background-color: #fff;
+}
+
+.index:hover, .exp:hover, .forma:hover, .inter:hover  {
+    background-color: #696d88;
+}
+
+section {
+    text-align: center;
+    color: rgba(233, 166, 41, 0.8);
+}
+
+footer {
+    height: 40px;
+    padding-top: 1px;
+    text-align: center;
+    color: #000;      
+}
+
+}
+
+@media screen and (min-width: 451px) {
+    body {
+        font-family: 'arial', sans-serif;
+        font-size: 13px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .container {
+        border: 1px solid rgba(233, 166, 41, 0.8);
+    }
+
+    header, nav, section, footer {
+        width: 800px;
+        margin: auto;
+    }
+    
+    header {
+        height: 50px;
+        color: rgba(233, 166, 41, 0.8);
+    }
+    
+    
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 20px;
+        text-align: center;
+        color: rgba(233, 166, 41, 0.8);
+    }
+    
+    nav {
+        border: 2px solid #87888b48;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 30px;
+        justify-content: space-around;
+    }
+    
+    nav a { 
+        background-color: #bec0c548;             
+        text-align: center;               
+        color: rgba(196, 113, 20, 0.8);
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    
+    .detail, .detail2, .detail3 {
+        display: block;
+        background-color: #fff;
+        text-align: left;
+    }
+    
+    section {
+        text-align: center;
+        color: rgba(196, 113, 20, 0.8);
+    }
+    
+    footer {
+        border: 2px solid #87888b48;
+        height: 40px;
+        padding: 10px 30px;
+        text-align: center;
+        color: #000;
+        background-color: #87888b48;
+           
+    }
+    
+}
+
